@@ -4,26 +4,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carta</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    body {
+      background-color: #fad7df;
+      padding-top: 3rem; /* Espacio superior opcional para mejorar la visualización */
+    }
+    .container-letter {
+      position: relative;
+      text-align: center; /* Alineación central para el contenido principal */
+      margin-bottom: 3rem; /* Espacio inferior para separar de los botones */
+    }
+    .cover {
+      position: absolute;
+      border-left: 200px solid transparent;
+      border-right: 200px solid transparent;
+      border-top: 100px solid #fe3334;
+      border-bottom: 100px solid transparent;
+      transition: transform .75s;
+      transform-origin: top;
+    }
+    .paper {
+      padding: 1.5rem;
+      line-height: 2rem;
+      background: white;
+      width: 390px;
+      height: 180px;
+      transition: all .75s;
+      margin: auto; /* Centra el contenido de la carta */
+    }
+    .options {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem; /* Ajuste para separar de la carta */
+    }
+    .options button {
+      color: #ff3234;
+      font-weight: 600;
+      border-radius: 3px;
+      background: #fad7df;
+      padding: 0.5rem 1rem;
+      border: 1px solid #fe3334;
+      cursor: pointer;
+      margin: 0 1rem; /* Espacio entre botones */
+    }
+    .options button:hover {
+      background: #ff989e;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-  <main class="container">
-    <div class="container-letter">
-      <div class="cover"></div>
-      <span class="heart">♥</span>
-      <p class="paper" id="mainMessage">
-        Para: Jazmín Abril ♥
-        <br> Hola hermosa! Mediante esta carta quiero decirte algunos datos interesantes.
-      </p>
-      <div class="letter"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="container-letter">
+          <div class="cover"></div>
+          <span class="heart">♥</span>
+          <p class="paper" id="mainMessage">
+            Para: Jazmín Abril ♥
+            <br> Hola hermosa! Mediante esta carta quiero decirte algunos datos interesantes.
+          </p>
+          <div class="letter"></div>
+        </div>
+        <div class="options">
+          <button id="open">Abrir</button>
+          <button id="next" style="display:none;">Siguiente</button>
+        </div>
+      </div>
     </div>
-    <div class="options">
-      <button id="open">Abrir</button>
-      <button id="next" style="display:none;">Siguiente</button>
-    </div>
-  </main>
+  </div>
   <script src="script.js"></script>
+  <!-- Tus imágenes y contenido adicional aquí -->
   <img src="imagenes/yo.gif" class="centered-gif" alt="GIF animado">
   <img src="imagenes/ver.gif" class="new-centered-gif" alt="Nuevo GIF animado"> <!-- Nueva imagen GIF -->
   <img src="imagenes/abrazito.gif" class="another-centered-gif" alt="Otro nuevo GIF animado"> <!-- Otro nuevo GIF -->
