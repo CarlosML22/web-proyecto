@@ -214,7 +214,7 @@ main {
 
 .white-rectangle {
   position: absolute;
-  top: 65%; /* Ajusta el porcentaje según lo necesites */
+  top: 45%; /* Ajusta el porcentaje según lo necesites */
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -227,7 +227,7 @@ main {
 
 .new-white-rectangle {
   position: absolute;
-  top: 70%; /* Ajusta el porcentaje según lo necesites */
+  top: 55%; /* Ajusta el porcentaje según lo necesites */
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -240,7 +240,7 @@ main {
 
 .another-white-rectangle {
   position: absolute;
-  top: 80%; /* Ajusta el porcentaje según lo necesites */
+  top: 45%; /* Ajusta el porcentaje según lo necesites */
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -253,7 +253,7 @@ main {
 
 .third-white-rectangle {
   position: absolute;
-  top: 80%; /* Ajusta el porcentaje según lo necesites */
+  top: 55%; /* Ajusta el porcentaje según lo necesites */
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -279,7 +279,7 @@ main {
 
 .fifth-white-rectangle {
   position: absolute;
-  top: 75%; /* Ajusta el porcentaje según lo necesites */
+  top: 55%; /* Ajusta el porcentaje según lo necesites */
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -292,7 +292,7 @@ main {
 
 #page2 {
   position: absolute;
-  top: calc(65% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(50% + 50px); /* Ajusta la posición vertical del botón */
   left: 50%;
   transform: translateX(-50%);
   background-color: #ff3234;
@@ -311,7 +311,7 @@ main {
 
 #page3 {
   position: absolute;
-  top: calc(80% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(65% + 50px); /* Ajusta la posición vertical del botón */
   left: 50%;
   transform: translateX(-50%);
   background-color: #ff3234;
@@ -330,7 +330,7 @@ main {
 
 #page4 {
   position: absolute;
-  top: calc(85% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(55% + 50px); /* Ajusta la posición vertical del botón */
   left: 80%;
   transform: translateX(-50%);
   background-color: #ff3234;
@@ -349,7 +349,7 @@ main {
 
 #page5 {
   position: absolute;
-  top: calc(80% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(65% + 50px); /* Ajusta la posición vertical del botón */
   left: 50%;
   transform: translateX(-50%);
   background-color: #ff3234;
@@ -368,7 +368,7 @@ main {
 
 #page6 {
   position: absolute;
-  top: calc(80% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(65% + 50px); /* Ajusta la posición vertical del botón */
   left: 50%;
   transform: translateX(-50%);
   background-color: #ff3234;
