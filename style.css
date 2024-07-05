@@ -81,7 +81,7 @@ main {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 13; /* Asegúrate que esté por encima de otros elementos */
+  z-index: 13;
 }
 
 .another-centered-gif {
@@ -90,7 +90,7 @@ main {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 16; /* Asegúrate que esté por encima de otros elementos */
+  z-index: 16;
 }
 
 .third-centered-gif {
@@ -99,7 +99,7 @@ main {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 19; /* Asegúrate que esté por encima de otros elementos */
+  z-index: 19;
 }
 
 .fourth-centered-gif {
@@ -108,7 +108,7 @@ main {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 22; /* Asegúrate que esté por encima de otros elementos */
+  z-index: 22;
 }
 
 .fifth-centered-gif {
@@ -117,7 +117,7 @@ main {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 25; /* Asegúrate que esté por encima de otros elementos */
+  z-index: 25;
 }
 
 .options {
@@ -214,85 +214,85 @@ main {
 
 .white-rectangle {
   position: absolute;
-  top: 45%; /* Ajusta el porcentaje según lo necesites */
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
-  z-index: 11; /* Asegúrate que esté por encima del GIF animado */
-  display: none; /* Ocúltalo inicialmente */
+  z-index: 11;
+  display: none;
 }
 
 .new-white-rectangle {
   position: absolute;
-  top: 55%; /* Ajusta el porcentaje según lo necesites */
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
-  z-index: 14; /* Asegúrate que esté por encima del nuevo GIF animado */
-  display: none; /* Ocúltalo inicialmente */
+  z-index: 14;
+  display: none;
 }
 
 .another-white-rectangle {
   position: absolute;
-  top: 45%; /* Ajusta el porcentaje según lo necesites */
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
-  z-index: 17; /* Asegúrate que esté por encima del otro nuevo GIF animado */
-  display: none; /* Ocúltalo inicialmente */
+  z-index: 17;
+  display: none;
 }
 
 .third-white-rectangle {
   position: absolute;
-  top: 55%; /* Ajusta el porcentaje según lo necesites */
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
-  z-index: 20; /* Asegúrate que esté por encima del tercer nuevo GIF animado */
-  display: none; /* Ocúltalo inicialmente */
+  z-index: 20;
+  display: none;
 }
 
 .fourth-white-rectangle {
   position: absolute;
-  top: 75%; /* Ajusta el porcentaje según lo necesites */
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
-  z-index: 23; /* Asegúrate que esté por encima del cuarto nuevo GIF animado */
-  display: none; /* Ocúltalo inicialmente */
+  z-index: 23;
+  display: none;
 }
 
 .fifth-white-rectangle {
   position: absolute;
-  top: 55%; /* Ajusta el porcentaje según lo necesites */
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
-  z-index: 26; /* Asegúrate que esté por encima del quinto nuevo GIF animado */
-  display: none; /* Ocúltalo inicialmente */
+  z-index: 26;
+  display: none;
 }
 
 #page2 {
   position: absolute;
-  top: calc(50% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(50% + 50px);
   left: 50%;
   transform: translateX(-50%);
   background-color: #ff3234;
@@ -302,7 +302,7 @@ main {
   border-radius: 3px;
   font-weight: 600;
   cursor: pointer;
-  z-index: 12; /* Asegúrate que esté por encima del rectángulo */
+  z-index: 12;
 }
 
 #page2:hover {
@@ -311,7 +311,7 @@ main {
 
 #page3 {
   position: absolute;
-  top: calc(65% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(65% + 50px);
   left: 50%;
   transform: translateX(-50%);
   background-color: #ff3234;
@@ -321,7 +321,7 @@ main {
   border-radius: 3px;
   font-weight: 600;
   cursor: pointer;
-  z-index: 15; /* Asegúrate que esté por encima del nuevo rectángulo */
+  z-index: 15;
 }
 
 #page3:hover {
@@ -330,7 +330,7 @@ main {
 
 #page4 {
   position: absolute;
-  top: calc(55% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(55% + 50px);
   left: 80%;
   transform: translateX(-50%);
   background-color: #ff3234;
@@ -340,7 +340,7 @@ main {
   border-radius: 3px;
   font-weight: 600;
   cursor: pointer;
-  z-index: 18; /* Asegúrate que esté por encima del otro nuevo rectángulo */
+  z-index: 18;
 }
 
 #page4:hover {
@@ -349,7 +349,7 @@ main {
 
 #page5 {
   position: absolute;
-  top: calc(65% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(65% + 50px);
   left: 50%;
   transform: translateX(-50%);
   background-color: #ff3234;
@@ -359,7 +359,7 @@ main {
   border-radius: 3px;
   font-weight: 600;
   cursor: pointer;
-  z-index: 21; /* Asegúrate que esté por encima del tercer nuevo rectángulo */
+  z-index: 21;
 }
 
 #page5:hover {
@@ -368,7 +368,7 @@ main {
 
 #page6 {
   position: absolute;
-  top: calc(65% + 50px); /* Ajusta la posición vertical del botón */
+  top: calc(65% + 50px);
   left: 50%;
   transform: translateX(-50%);
   background-color: #ff3234;
@@ -378,10 +378,73 @@ main {
   border-radius: 3px;
   font-weight: 600;
   cursor: pointer;
-  z-index: 24; /* Asegúrate que esté por encima del cuarto nuevo rectángulo */
+  z-index: 24;
 }
 
 #page6:hover {
   background-color: #ff6568;
 }
 
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  main {
+    gap: 1rem;
+  }
+
+  .container-letter {
+    width: 100%;
+  }
+
+  .cover {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 50px solid #fe3334;
+    border-bottom: 50px solid transparent;
+  }
+
+  .paper {
+    padding: 1rem;
+    width: calc(100% - 2rem);
+    height: auto;
+    right: 0;
+  }
+
+  .letter {
+    border-left: 100px solid #ff989e;
+    border-right: 100px solid #ff989e;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid #ff858a;
+  }
+
+  .options {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .options button {
+    width: 100%;
+  }
+
+  .centered-gif, .new-centered-gif, .another-centered-gif, .third-centered-gif, .fourth-centered-gif, .fifth-centered-gif {
+    width: 90%;
+    height: auto;
+  }
+
+  .white-rectangle, .new-white-rectangle, .another-white-rectangle, .third-white-rectangle, .fourth-white-rectangle, .fifth-white-rectangle {
+    width: 90%;
+    top: auto;
+    bottom: 20%;
+    left: 5%;
+    transform: translate(0, 0);
+  }
+
+  #page2, #page3, #page4, #page5, #page6 {
+    position: static;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
